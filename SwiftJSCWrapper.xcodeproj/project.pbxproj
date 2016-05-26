@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F769401CF764A000AE3952 /* SwiftJSCWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F7693F1CF764A000AE3952 /* SwiftJSCWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00F7694A1CF7684B00AE3952 /* JSThis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F769491CF7684B00AE3952 /* JSThis.swift */; };
+		00F7694C1CF7688C00AE3952 /* JSValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F7694B1CF7688C00AE3952 /* JSValue.swift */; };
+		00F7694E1CF7690B00AE3952 /* JSContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F7694D1CF7690B00AE3952 /* JSContext.swift */; };
+		00F769521CF76A3900AE3952 /* JSInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F769511CF76A3900AE3952 /* JSInstance.swift */; };
+		00F769541CF76A9500AE3952 /* JSProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F769531CF76A9500AE3952 /* JSProperty.swift */; };
+		00F769561CF76ACF00AE3952 /* JSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F769551CF76ACF00AE3952 /* JSObject.swift */; };
+		00F769581CF76AFA00AE3952 /* JSFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F769571CF76AFA00AE3952 /* JSFunction.swift */; };
+		00F7695C1CF76B7E00AE3952 /* JSAnyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F7695B1CF76B7E00AE3952 /* JSAnyObject.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00F7693C1CF764A000AE3952 /* SwiftJSCWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftJSCWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F7693F1CF764A000AE3952 /* SwiftJSCWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftJSCWrapper.h; sourceTree = "<group>"; };
+		00F769411CF764A000AE3952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F769491CF7684B00AE3952 /* JSThis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSThis.swift; sourceTree = "<group>"; };
+		00F7694B1CF7688C00AE3952 /* JSValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSValue.swift; sourceTree = "<group>"; };
+		00F7694D1CF7690B00AE3952 /* JSContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSContext.swift; sourceTree = "<group>"; };
+		00F769511CF76A3900AE3952 /* JSInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSInstance.swift; sourceTree = "<group>"; };
+		00F769531CF76A9500AE3952 /* JSProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSProperty.swift; sourceTree = "<group>"; };
+		00F769551CF76ACF00AE3952 /* JSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSObject.swift; sourceTree = "<group>"; };
+		00F769571CF76AFA00AE3952 /* JSFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSFunction.swift; sourceTree = "<group>"; };
+		00F7695B1CF76B7E00AE3952 /* JSAnyObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSAnyObject.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00F769381CF764A000AE3952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F769321CF764A000AE3952 = {
+			isa = PBXGroup;
+			children = (
+				00F7693E1CF764A000AE3952 /* SwiftJSCWrapper */,
+				00F7693D1CF764A000AE3952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00F7693D1CF764A000AE3952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00F7693C1CF764A000AE3952 /* SwiftJSCWrapper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00F7693E1CF764A000AE3952 /* SwiftJSCWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				00F769491CF7684B00AE3952 /* JSThis.swift */,
+				00F7693F1CF764A000AE3952 /* SwiftJSCWrapper.h */,
+				00F769411CF764A000AE3952 /* Info.plist */,
+				00F7694B1CF7688C00AE3952 /* JSValue.swift */,
+				00F7694D1CF7690B00AE3952 /* JSContext.swift */,
+				00F769511CF76A3900AE3952 /* JSInstance.swift */,
+				00F769531CF76A9500AE3952 /* JSProperty.swift */,
+				00F769551CF76ACF00AE3952 /* JSObject.swift */,
+				00F769571CF76AFA00AE3952 /* JSFunction.swift */,
+				00F7695B1CF76B7E00AE3952 /* JSAnyObject.swift */,
+			);
+			path = SwiftJSCWrapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00F769391CF764A000AE3952 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F769401CF764A000AE3952 /* SwiftJSCWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00F7693B1CF764A000AE3952 /* SwiftJSCWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F769441CF764A000AE3952 /* Build configuration list for PBXNativeTarget "SwiftJSCWrapper" */;
+			buildPhases = (
+				00F769371CF764A000AE3952 /* Sources */,
+				00F769381CF764A000AE3952 /* Frameworks */,
+				00F769391CF764A000AE3952 /* Headers */,
+				00F7693A1CF764A000AE3952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftJSCWrapper;
+			productName = SwiftJSCWrapper;
+			productReference = 00F7693C1CF764A000AE3952 /* SwiftJSCWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00F769331CF764A000AE3952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Crossrails;
+				TargetAttributes = {
+					00F7693B1CF764A000AE3952 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 00F769361CF764A000AE3952 /* Build configuration list for PBXProject "SwiftJSCWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00F769321CF764A000AE3952;
+			productRefGroup = 00F7693D1CF764A000AE3952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00F7693B1CF764A000AE3952 /* SwiftJSCWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00F7693A1CF764A000AE3952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00F769371CF764A000AE3952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F7695C1CF76B7E00AE3952 /* JSAnyObject.swift in Sources */,
+				00F7694E1CF7690B00AE3952 /* JSContext.swift in Sources */,
+				00F769581CF76AFA00AE3952 /* JSFunction.swift in Sources */,
+				00F769541CF76A9500AE3952 /* JSProperty.swift in Sources */,
+				00F769521CF76A3900AE3952 /* JSInstance.swift in Sources */,
+				00F7694C1CF7688C00AE3952 /* JSValue.swift in Sources */,
+				00F7694A1CF7684B00AE3952 /* JSThis.swift in Sources */,
+				00F769561CF76ACF00AE3952 /* JSObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00F769421CF764A000AE3952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		00F769431CF764A000AE3952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		00F769451CF764A000AE3952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SwiftJSCWrapper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = io.xrails.src.SwiftJSCWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00F769461CF764A000AE3952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SwiftJSCWrapper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = io.xrails.src.SwiftJSCWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00F769361CF764A000AE3952 /* Build configuration list for PBXProject "SwiftJSCWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F769421CF764A000AE3952 /* Debug */,
+				00F769431CF764A000AE3952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F769441CF764A000AE3952 /* Build configuration list for PBXNativeTarget "SwiftJSCWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F769451CF764A000AE3952 /* Debug */,
+				00F769461CF764A000AE3952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00F769331CF764A000AE3952 /* Project object */;
+}
